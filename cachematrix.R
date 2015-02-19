@@ -1,8 +1,5 @@
-# this function works like a class, it creates a list
-# that contains 4 member functions: set, get, setInv
-# and getInv. it uses <<- assignment operator so that
-# these internal variables are not exposed to the
-# outside environment. 
+# this function works like a class, it creates a list that contains 4 member functions: set, get, setInv
+# and getInv. it uses <<- assignment operator so that these internal variables are not exposed to the outside environment. 
 
 makeCacheMatrix <- function(x = matrix()) {
         
@@ -44,7 +41,7 @@ cacheSolve <- function(x, ...) {
         m # return the solved result
 }
 
-# Test
+# Test Case (Not part of assignment)
 # generate a random square, non-singular matrix
 test <- matrix(runif(9,1,100),3,3)
 # generate the makeCacheMatrix object with this matrix
